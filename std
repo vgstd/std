@@ -48,12 +48,10 @@
       <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
       <div class="carousel-inner" role="listbox">
         <!-- Slide 1 --> 
-       [[pdoResources?
-	&tpl=`carusel`
-	&parents=`34`
-	&includeContent=`1`
-	&includeTVs=`caruselim`
-]]
+        <div class="carousel-item active" style="background-image: url('[[+tv.caruselim]]')">
+          <div class="carousel-container">
+          </div>
+        </div>
    <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
         <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
       </a>
